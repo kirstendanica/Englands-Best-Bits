@@ -1,0 +1,186 @@
+/* FONTS
+font-family: 'Lato', sans-serif; (regular)
+font-family: 'Merriweather', serif; (regular & 700)
+*/
+
+.background-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url("/resources/images/england01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: -5.50rem;
+}
+
+.background-image .main-header {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding-top: 20rem;
+    font-family: 'Merriweather', serif;
+    margin: 0 auto;
+}
+
+.background-image p {
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+}
+
+.background-image p .btn {
+    background-color: transparent;
+    color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 100%);
+    padding: 0.6rem;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.background-image p .btn:hover {
+    border: 1px solid hsl(349, 83%, 37%);
+    color: hsl(349, 83%, 37%);
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+.navbar {
+    height: 5rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 8rem;
+
+}
+
+.navbar .navbar-brand {
+    margin-top: 0.6rem;
+    color: white;
+    margin-left: 8rem;
+}
+
+.navbar .navbar-brand:hover {
+    color: hsl(349, 83%, 37%);
+    transition: color 1s ease 0s;
+}
+
+.navbar ul li a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    margin-right: 0.7rem;
+}
+
+.navbar ul li a:hover {
+    color: hsl(349, 83%, 37%);
+}
+
+.card-h2 {
+    font-family: 'Merriweather', serif;
+}
+
+.card-title, .card-text {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.container-header {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: hsl(231, 55%, 19%);
+    height: 100%;
+}
+
+.contact-us {
+    text-align: center;
+    background-color: hsl(231, 55%, 19%);
+}
+
+.contact-us h2 {
+    color:hsl(0, 0%, 100%);
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    padding-top: 1.25rem;
+}
+
+.contact-us p {
+    font-family: 'Lato', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-form {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.25rem 0 1.25rem 0;
+    width: 20%;
+}
+
+.contact-form h2 {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    margin-top: 0.6rem;
+    color:hsl(349, 83%, 37%);
+}
+
+.contact-form .input-box{
+    position: relative;
+    width: 100%;
+    margin-top: 0.6rem;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea{
+  width: 100%;
+  padding: 0.3rem 0;
+  font-size: 1rem;
+  margin: 1rem 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contact-form .input-box span {
+    position: absolute;
+    left: 0;
+    padding: 0.3rem 0;
+    font-size: 1rem;
+    margin: 0.6rem 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+  }
+
+.contact-form .input-box input[type="submit"] {
+  width: 100%;
+  background: hsl(349, 83%, 37%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  cursor: pointer;
+  padding: 0.6rem;
+  font-size: 1.1rem;
+  border: 1px solid hsl(349, 83%, 37%);
+  transition: 0.5s;
+}
